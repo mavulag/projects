@@ -7,6 +7,7 @@ function App() {
   return (
     <Router>
       <NavigationBar />
+      <div className='p-4'></div>
       <AppRoutes />
       <Footer />
     </Router>

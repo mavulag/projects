@@ -31,6 +31,7 @@ const Register = () => {
             placeholder="Enter username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            required
           />
           </Form.Group>
         <Form.Group controlId="email">
@@ -40,6 +41,7 @@ const Register = () => {
             placeholder="Enter email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            required
           />
         </Form.Group>
         <Form.Group controlId="password" className="mt-3">
@@ -49,6 +51,7 @@ const Register = () => {
             placeholder="Enter password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            required
           />
         </Form.Group>
         <Form.Group controlId="confirmPassword" className="mt-3">
